@@ -1,0 +1,65 @@
+.body {
+	border-radius: 0;
+}	
+div.container {
+    border:0;
+    margin: 10;
+	border-radius: 0;
+	width: 100%;
+	padding: 0;
+}	
+
+#header-nav {
+    background-color: #999999;
+    border: 2px solid;
+	border-radius: 0;
+}
+
+.navbar-brand h1 { /* name */
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding: 0;
+  border: 0;
+ }
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+.nav-link{
+	color: #000000;
+	background-color: #DDDDDD;
+	text-align: center;
+}	
+
+.item {
+    border: 2px solid;
+	width: 100%;
+    background-color: #999999;
+    margin-bottom: 10px;   
+   
+}
+.menu-title {
+    font-weight: bold;
+} 
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+
+  #riga{
+    width: 80%;
+	margin: auto;
+  }
+
+}
+
+
